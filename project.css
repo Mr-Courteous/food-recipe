@@ -1,0 +1,371 @@
+body{
+    padding-left:5%;
+    padding-right: 5%;
+    font-family: 'Raleway', Arial, sans-serif;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
+@media only screen and (max-width:1055px) {
+    body{
+        padding-left: 0;
+        padding-right: 0;
+
+    }
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+
+
+}
+.nav{
+    width: 33.3%;
+    display: inline;
+} 
+
+.nav a{
+    display: inline;
+    padding: 4px;
+    text-decoration: none;
+    color: #3C4043;
+    font-size: 1rem;
+}
+.nav a:hover{
+    color: #3cc091;
+}
+.logo{
+    width: 33.3%;
+    display: inline-block;
+}
+
+.logo-image{
+    width: 250px;
+}
+.icons{
+    width: 33.3%;
+    display: inline-block;
+    
+}
+.fa{
+    width: 15px;
+}
+
+
+@media only screen and (max-width:1055px) {
+    .nav{
+        display: none;
+
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .logo{
+        width: 50%;
+        margin: auto;
+    }
+}
+
+
+/*  head section from this side up */
+
+
+.menu-items{
+    display: flex;
+    height: 50px;
+    background-color:#202124;
+
+
+}
+.menu-items a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    display: inline-block;
+    color:white;
+    padding: 7px;
+    font-family: 'Raleway', Arial, sans-serif;
+
+}
+
+.menu-item-A{
+    width: 80%;
+    padding-top: 5px;
+    padding-left: 0px;
+}
+.menu-item-B{
+    width: 20%;
+}
+
+.search{
+    padding-top: 10px;
+}
+
+
+
+
+
+
+/* menu section from this side up  */
+
+#ads-section{
+    height: 20px;
+    padding: 10px;
+}
+
+/* ads section from this side up  */
+
+
+
+.row {
+    display: -webkit-flex;
+    display: flex;
+    padding: 0;
+}
+.recent, .popular{
+    background-color:#202124;
+    height: 50px;
+    margin-top: 0px;
+    border-radius: 5px;
+}
+
+.column-side {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 2;
+    
+ }
+ .column {
+    padding: 10px;
+    height: 300px;
+    margin-left: 15px;
+    margin-right: 15px;
+ }
+ 
+ /* Middle column */
+ .column-middle {
+   -webkit-flex: 2;
+   -ms-flex: 2;
+    flex:1;
+    margin-left: 20px;
+
+ }
+ @media only screen and (max-width:1055px) {
+    .row{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:1055px) {
+    .column-middle{
+        margin-left: 0;
+        margin-top: 15px;
+    }
+}
+
+.first{
+    display: inline-block;
+    vertical-align: top;
+}
+.recipe-description{
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    font-family: 'raleway', arial, sans-serif;
+    color: #202124;
+}
+.recipe-stats{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'raleway', arial, sans-serif;
+    color: #202124;
+
+}
+
+.recipe-explanation{
+    font-size: 14px;
+    line-height: ;
+    font-weight: 400;
+    font-family: 'raleway', arial, sans-serif;
+    color: #202124;
+
+}
+.one{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+}
+.second{
+    display: inline-block;
+    width: 50%;
+    font-family: 'Raleway';
+    font-weight: 700;
+    vertical-align: top;
+    margin-top: 8px;
+}
+.read-more-button{
+    width: 100px;
+    padding: 5px;
+    background-color: #3cc091;
+    color: white;
+    border: none;
+    margin-top: 1px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 13px;
+    
+}
+.load-more-button{
+    width: 100px;
+    padding: 5px;
+    background-color: #3cc091;
+    color: white;
+    border: none;
+    margin-top: 1px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+}
+.second a{
+    text-decoration: none;
+    color:#202124;
+}
+.second a:hover{
+    color: #3cc091;
+}
+.two{
+    display: inline-block;
+    width: 50%;
+    font-family: 'Raleway';
+    font-weight: 700;
+    vertical-align: top;
+    margin-top: 8px;
+
+}
+.two a{
+    text-decoration: none;
+    color:#202124;
+}
+.two a:hover{
+        color: #3cc091;
+}
+.description-two{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'raleway', arial, sans-serif;
+    color: #202124;
+
+}
+.recipe-pic{
+    margin-top: 10px;
+    border-radius: 2px;
+    height: 170px;
+}
+.recipe-pic-two{
+    margin-top: 10px;
+    border-radius: 2px;
+    vertical-align: top;
+    width: 90px;
+    height: 60px;
+}
+.main-tag{
+    background-color:#202124;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width:600px) {
+    .first, .second, .recipe-pic{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:600px) {
+     .second{
+        margin-left: 10px;
+    }
+}
+.load-more-btn{
+    text-align: center;
+    margin-top: 10px ;
+}
+
+/* body section from this side up */
+
+.primary-footer{
+    display: flex;
+    display: -webkit-flex;
+    background-color:#202124;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media only screen and (max-width:1055px) {
+    .primary-footer{
+        flex-direction: column;
+
+    }
+}
+.primary-footer-one{
+    flex: 1;
+    text-align: center;
+    padding-top: 20px;
+    vertical-align: middle;
+}
+
+.primary-footer-two{
+    flex: 1;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 15px;
+}
+.primary-footer-three{
+    flex: 1;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.secondary-footer{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    margin-top: 0;
+    padding-top: 0;
+    background-color:#202124 ;
+}
+@media only screen and (max-width:1055px) {
+    .secondary-footer{
+        flex-direction: column;
+
+    }
+}
+.secondary-footer-one{
+    flex: 1;
+    padding-left: 20px;
+    background-color:#202124;
+    
+}
+.secondary-footer-two{
+    flex: 1;
+    margin-left: 10px;
+}
+.recipe-stats-two{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'raleway', arial, sans-serif;
+    color: white;
+    border:white;
+}
+.secondary-footer-three{
+    flex: 1;
+    margin-left: 10px;
+
+}
